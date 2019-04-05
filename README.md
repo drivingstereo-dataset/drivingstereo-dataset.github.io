@@ -1,4 +1,6 @@
-## DrivingStereo: A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios
+## DrivingStereo
+
+A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios
 
 ### Authors
 
