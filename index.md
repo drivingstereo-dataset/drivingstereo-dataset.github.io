@@ -3,7 +3,7 @@ youtubeId: LzRSfs6oaCA
 layout: default
 ---
 
-## Video
+## DrivingStereo
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
