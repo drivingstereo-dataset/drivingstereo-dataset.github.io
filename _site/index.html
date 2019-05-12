@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.6.0 -->
+<title>DrivingStereo | A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="DrivingStereo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios" />
+<meta property="og:description" content="A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="DrivingStereo" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","headline":"DrivingStereo","name":"DrivingStereo","description":"A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>DrivingStereo</h1>
+          <h2>A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios</h2>
+        </header>
+        <section id="downloads" class="clearfix">
+          
+	
+        </section>
+        <hr>
+        <section id="main_content">
+          <h2 id="video">Video</h2>
+
+<!-- Feel free to change the width and height to your desired video size. -->
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/LzRSfs6oaCA" width="576" height="324" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Great progress has been made on estimating disparity maps from stereo images. However, with the limited stereo data available in the existing datasets and unstable ranging precision of current stereo methods, industry-level stereo matching in autonomous driving remains challenging. In this paper, we construct a novel large-scale stereo dataset named DrivingStereo. It contains over 180k images covering a diverse set of driving scenarios, which is hundreds of times larger than the KITTI Stereo dataset. High-quality labels of disparity are produced by a model-guided filtering strategy from multi-frame LiDAR points. For better evaluations, we present two new metrics for stereo matching in the driving scenes, i.e. a distance-aware metric and a semantic-aware metric. Extensive experiments show that compared with the models trained on FlyingThings3D or Cityscapes, the models trained on our DrivingStereo achieve higher generalization accuracy in real-world driving scenes, while the proposed metrics better evaluate the stereo methods on all-range distances and across different classes.</p>
+
+<h2 id="dataset-overview">Dataset Overview</h2>
+
+<p><img src="images/drivingstereo_examples.jpg" alt="Examples" /></p>
+
+<h3 id="real-scenes">Real-Scenes</h3>
+
+<p>Unlike synthetic datasets, such as FlyingThings3D, MPI Sintel, and Virtual KITTI, our DrivingStereo focus on real-world driving scenarios and build the acquisition platform to collect data.</p>
+
+<h3 id="high-diversity">High Diversity</h3>
+
+<p>Our dataset contains a diverse range of driving scenarios, including urban, suburban, highway, elevated, and country roads, together with scenarions under different climates like sunny, rainy, cloudy, foggy, and dusky weathers.</p>
+
+<h3 id="substantial-size">Substantial size</h3>
+
+<p>The total frames of our data exceed 180k that are much larger than other real-world datasets including KITTI, Middleburry, and ETH3D, even more than those synthetic datasets like FlyingThings3D, Virtual KITTI, and MPI Sintel.</p>
+
+<h3 id="high-quality-labels">High-quality labels</h3>
+
+<p>The disparity labels in our dataset are projected from LiDAR points and filtered by model-guided strategy.</p>
+
+<h2 id="results">Results</h2>
+
+<!-- ![KITTI Distance-Aware Metrics](images/distance_aware_ds_pretrain_kitti_eval.png) -->
+<!-- ![DrivingStereo Distance-Aware Metrics](images/distance_aware_ds_pretrain_ds_eval.png) -->
+<p><img src="images/distance_aware_ds_pretrain_ds_eval.png" width="300" /> 
+<img src="images/semantic_aware_ds_pretrain_ds_eval.png" width="300" /></p>
+
+<!-- ![KITTI Semantic-Aware Metrics](images/semantic_aware_ds_pretrain_kitti_eval.png) -->
+<!-- ![DrivingStereo Semantic-Aware Metrics](images/semantic_aware_ds_pretrain_ds_eval.png) -->
+
+<h2 id="contact">Contact</h2>
+
+<p>yangguorun91@gmail.com, songxiao@sensetime.com</p>
+
+
+        </section>
+
+        <footer>
+        
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
+        </footer>
+
+      </div>
+    </div>
+
+    
+  </body>
+</html>
