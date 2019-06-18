@@ -7,31 +7,45 @@ layout: default
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-## Abstract
+### News
 
-Great progress has been made on estimating disparity maps from stereo images. However, with the limited stereo data available in the existing datasets and unstable ranging precision of current stereo methods, industry-level stereo matching in autonomous driving remains challenging. In this paper, we construct a novel large-scale stereo dataset named DrivingStereo. It contains over 180k images covering a diverse set of driving scenarios, which is hundreds of times larger than the KITTI Stereo dataset. High-quality labels of disparity are produced by a model-guided filtering strategy from multi-frame LiDAR points. For better evaluations, we present two new metrics for stereo matching in the driving scenes, i.e. a distance-aware metric and a semantic-aware metric. Extensive experiments show that compared with the models trained on FlyingThings3D or Cityscapes, the models trained on our DrivingStereo achieve higher generalization accuracy in real-world driving scenes, while the proposed metrics better evaluate the stereo methods on all-range distances and across different classes.
+2019-06-13: &nbsp; Demo images release. [Download link](https://drive.google.com/open?id=1T_qjjtX6UvQtLsr03EtFhBz8ZIPII7WO)
 
-## Dataset Overview
+2019-06-08: &nbsp; Our paper makes public on open access. [Paper link](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_DrivingStereo_A_Large-Scale_Dataset_for_Stereo_Matching_in_Autonomous_Driving_CVPR_2019_paper.pdf)
+
+2019-05-04: &nbsp; Demo video is uploaded to youtube. [Video Link](https://www.youtube.com/watch?v=LzRSfs6oaCA)
+
+### Authors
+
+Guorun Yang, Xiao Song, Chaoqing Huang, Zhidong Deng, Jianping Shi, Bolei Zhou
+
+### Introduction
+
+In this work, we construct a large-scale stereo dataset named DrivingStereo. It contains over 180k images covering a diverse set of driving scenarios, which is hundreds of times larger than the KITTI stereo dataset. High-quality labels of disparity are produced by a model-guided filtering strategy from multi-frame LiDAR points. Compared with other dataset, the deep-learning models trained on our DrivingStereo achieve higher generalization accuracy in real-world driving scenes.
+
+### Dataset Overview
 
 ![Examples](images/drivingstereo_examples.jpg)
 
-### Real-Scenes
+### Advantages of DrivingStereo
 
-Unlike synthetic datasets, such as FlyingThings3D, MPI Sintel, and Virtual KITTI, our DrivingStereo focus on real-world driving scenarios and build the acquisition platform to collect data.
+#### Real-Scenes 
 
-### High Diversity
+The data is collected from real driving scenes.
 
-Our dataset contains a diverse range of driving scenarios, including urban, suburban, highway, elevated, and country roads, together with scenarions under different climates like sunny, rainy, cloudy, foggy, and dusky weathers.
+#### High Diversity
 
-### Substantial size
+DrivingStereo dataset covers diverse road scenarios and different weathers. 
 
-The total frames of our data exceed 180k that are much larger than other real-world datasets including KITTI, Middleburry, and ETH3D, even more than those synthetic datasets like FlyingThings3D, Virtual KITTI, and MPI Sintel.
+#### Large Amount of Data
 
-### High-quality labels
+The total number of frames in DrivingStereo is more than 180K. Among them, 174,437 frames are splited as training set, and the remaining 7,751 frames are splited as test set. 
 
-The disparity labels in our dataset are projected from LiDAR points and filtered by model-guided strategy.
+#### High-quality labels
 
-## Results
+The disparity labels in our dataset are projected from LiDAR points and filtered by a novel model-guided strategy.
+
+### Results
 
 <!-- ![KITTI Distance-Aware Metrics](images/distance_aware_ds_pretrain_kitti_eval.png) -->
 <!-- ![DrivingStereo Distance-Aware Metrics](images/distance_aware_ds_pretrain_ds_eval.png) -->
@@ -42,7 +56,7 @@ The disparity labels in our dataset are projected from LiDAR points and filtered
 <!-- ![KITTI Semantic-Aware Metrics](images/semantic_aware_ds_pretrain_kitti_eval.png) -->
 <!-- ![DrivingStereo Semantic-Aware Metrics](images/semantic_aware_ds_pretrain_ds_eval.png) -->
 
-## Contact 
+### Contact 
 
 yangguorun91@gmail.com, songxiao@sensetime.com
 
