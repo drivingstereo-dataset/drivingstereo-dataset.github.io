@@ -19,7 +19,7 @@ layout: default
 
 ### Download
 
-We provide **Google Drive** and **Baidu Cloud** links for the downloading of left images, right images, and disparity maps. In order to compress data for convenience, all of the images are downsampled to the half resolution. The average resolution of image is 881x400. The total number of our dataset is 182188, where the training set has 174,437 pairs and the testing set has 7751 pairs.
+We provide **Google Drive** and **Baidu Cloud** links for the downloading of left images, right images, and disparity maps. For convenience, we compress the images by sequences. All of the images are downsampled to the half resolution. The average size of image is 881x400. The total number of our dataset is 182188, where the training set has 174,437 pairs and the testing set has 7751 pairs.
 
 As KITTI stereo dataset, our disparity maps are saved as **uint16 PNG images**. The disparity value for each pixel can be computed by converting the uint16 value to float and dividing it by 256. The zero values indicate the invalid pixels.
 
@@ -27,17 +27,12 @@ As KITTI stereo dataset, our disparity maps are saved as **uint16 PNG images**. 
 
 |    Data Type   | Google Drive | Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
-|  Left images   | [*Download Link*](https://drive.google.com/drive/folders/1KN8BSF5KovPuNpKf0W2hScVpo70bRewI?usp=sharing) | [*Download Link*](https://pan.baidu.com/s/4n2qpSY9) |
-|  Right Images  | [*Download Link*](https://drive.google.com/drive/folders/1UG1U6iZVKsSk3Amn84bE1iFN53OKlsps?usp=sharing) | [*Download Link*](https://pan.baidu.com/s/4jMOLnDW) |
-| Disparity Maps | [*Download Link*](https://drive.google.com/drive/folders/18obNjqFMzPuga6ZLN4UwCAqUjP7tQlKg?usp=sharing) | [*Download Link*](https://pan.baidu.com/s/4stUt7uX) |
+|  Left images   | [*Download*](https://drive.google.com/drive/folders/1KN8BSF5KovPuNpKf0W2hScVpo70bRewI?usp=sharing) | [*Download (Extraction Code: ijyc)*](https://pan.baidu.com/s/1ZrOqBjLscc4U1Wy7eezZ7A)|
+|  Right Images  | [*Download*](https://drive.google.com/drive/folders/1UG1U6iZVKsSk3Amn84bE1iFN53OKlsps?usp=sharing) | [*Download (Extraction Code: bc4k)*](https://pan.baidu.com/s/1I3ZxsKxZef2LZqDopWKf6Q) |
+| Disparity Maps | [*Download*](https://drive.google.com/drive/folders/18obNjqFMzPuga6ZLN4UwCAqUjP7tQlKg?usp=sharing) | [*Download (Extraction Code: ma6a)*](https://pan.baidu.com/s/1lJpMk1nWdxKjJ7cK5dPTZA) |
 
-<!-- #### Testing Sequences
+The training data contains 38 sequences. Each sequence is compress into an individual zip file which can be dowloaded from above links. The attributes of each sequence are given in [our supplementary materials](http://openaccess.thecvf.com/content_CVPR_2019/supplemental/Yang_DrivingStereo_A_Large-Scale_CVPR_2019_supplemental.pdf).
 
-|    Data Type   | Google Drive | Baidu Cloud |
-|  :----------:  | :----------: | :---------: |
-|  Left images   | Uploading | Uploading |
-|  Right Images  | Uploading | Uploading |
-| Disparity Maps | Uploading | Uploading | -->
 
 ### Overview
 
