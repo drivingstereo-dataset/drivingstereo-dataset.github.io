@@ -9,6 +9,8 @@ layout: default
 
 ### News
 
+2019-11-12: &nbsp; Testing dataset releases.
+
 2019-11-10: &nbsp; Training dataset releases.
 
 2019-06-13: &nbsp; Demo images release. [Download link](https://drive.google.com/open?id=1T_qjjtX6UvQtLsr03EtFhBz8ZIPII7WO)
@@ -19,20 +21,29 @@ layout: default
 
 ### Download
 
-We provide **Google Drive** and **Baidu Cloud** links for the downloading of left images, right images, and disparity maps. For convenience, we compress the images by sequences. All of the images are downsampled to the half resolution. The average size of image is 881x400. The total number of our dataset is 182188, where the training set has 174,437 pairs and the testing set has 7751 pairs.
+**Google Drive** and **Baidu Cloud** links are available for the downloading of left images, right images, disparity maps, and depth maps. The total number of our dataset is 182188, where the training set has 174437 pairs and the testing set has 7751 pairs. For convenience, we compress the images by sequences. Different from the original resolution reported in the paper, all of the images and maps are downsampled to the half resolution. The average size of image is 881x400.
 
-As KITTI stereo dataset, our disparity maps are saved as **uint16 PNG images**. The disparity value for each pixel can be computed by converting the uint16 value to float and dividing it by 256. The zero values indicate the invalid pixels.
+As KITTI stereo dataset, both of the disparity maps and depth maps are saved as **uint16 PNG images**. The disparity value and depth value for each pixel can be computed by converting the uint16 value to float and dividing it by 256. The zero values indicate the invalid pixels.
 
 #### Training data
 
-|    Data Type   | Google Drive | Baidu Cloud |
+|    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
 |  Left images   | [*Download*](https://drive.google.com/drive/folders/1KN8BSF5KovPuNpKf0W2hScVpo70bRewI?usp=sharing) | [*Download (Extraction Code: ijyc)*](https://pan.baidu.com/s/1ZrOqBjLscc4U1Wy7eezZ7A)|
 |  Right Images  | [*Download*](https://drive.google.com/drive/folders/1UG1U6iZVKsSk3Amn84bE1iFN53OKlsps?usp=sharing) | [*Download (Extraction Code: bc4k)*](https://pan.baidu.com/s/1I3ZxsKxZef2LZqDopWKf6Q) |
 | Disparity Maps | [*Download*](https://drive.google.com/drive/folders/18obNjqFMzPuga6ZLN4UwCAqUjP7tQlKg?usp=sharing) | [*Download (Extraction Code: ma6a)*](https://pan.baidu.com/s/1lJpMk1nWdxKjJ7cK5dPTZA) |
+|   Depth Maps   | [*Download*](https://drive.google.com/drive/folders/1kXOa9hgKfzyFeO7CxWiIia1OL7lqQEoI?usp=sharing)  | [*Download (Extraction Code: njpc)*](https://pan.baidu.com/s/1Zuzw3rhFEaP0pLE1Nb_K0w)  |
 
-The training data contains 38 sequences. Each sequence is compress into an individual zip file which can be dowloaded from above links. The attributes of each sequence are given in [our supplementary materials](http://openaccess.thecvf.com/content_CVPR_2019/supplemental/Yang_DrivingStereo_A_Large-Scale_CVPR_2019_supplemental.pdf).
+The training dataset contains 38 sequences and 174431 frames. Each sequence is compress into an individual zip file which can be downloaded from above links. The attributes of each sequence are given in [our supplementary materials](http://openaccess.thecvf.com/content_CVPR_2019/supplemental/Yang_DrivingStereo_A_Large-Scale_CVPR_2019_supplemental.pdf).
 
+#### Testing data
+
+|    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
+|  :----------:  | :----------: | :---------: |
+|  Left images   | [*Download*](https://drive.google.com/drive/folders/1x-66WX9ccTU3V76jYrgXypyuGKjFb49w?usp=sharing) | [*Download (Extraction Code: pcqv)*](https://pan.baidu.com/s/1ofByLHbQM27sCpyvisQC7A)|
+|  Right Images  | [*Download*](https://drive.google.com/drive/folders/1WtNkK8QUzPnD49OPGbUrK_VA4ly1yH91?usp=sharing) | [*Download (Extraction Code: 2t32 )*](https://pan.baidu.com/s/1NEDwo94UNjZxJqBkE8Bs0A) |
+
+The testing dataset contains 4 sequences and 7751 frames. So far we have released the stereo images but hidden the disparity and depth maps. If you are interested in the our testing set, you can contact us for the evaluation.
 
 ### Overview
 
@@ -52,7 +63,7 @@ yangguorun91@gmail.com, songxiao@sensetime.com
 
 If you use our DrivingStereo dataset in your research, please cite this publication:
 ```
-@INPROCEEDINGS{yang2019drivingstereo
+@inproceeding{yang2019drivingstereo
     title={DrivingStereo: A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios},
     author={Yang, Guorun and Song, Xiao and Huang, Chaoqin and Deng, Zhidong and Shi, Jianping and Zhou, Bolei},
     booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
