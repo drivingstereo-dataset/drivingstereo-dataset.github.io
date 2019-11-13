@@ -27,7 +27,7 @@ As KITTI stereo dataset, both of the disparity maps and depth maps are saved as 
 
 #### Training data
 
-|    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
+|    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
 |  Left images   | [*Download*](https://drive.google.com/drive/folders/1KN8BSF5KovPuNpKf0W2hScVpo70bRewI?usp=sharing) | [*Download (Extraction Code: ijyc)*](https://pan.baidu.com/s/1ZrOqBjLscc4U1Wy7eezZ7A)|
 |  Right Images  | [*Download*](https://drive.google.com/drive/folders/1UG1U6iZVKsSk3Amn84bE1iFN53OKlsps?usp=sharing) | [*Download (Extraction Code: bc4k)*](https://pan.baidu.com/s/1I3ZxsKxZef2LZqDopWKf6Q) |
@@ -38,7 +38,7 @@ The training dataset contains 38 sequences and 174431 frames. Each sequence is c
 
 #### Testing data
 
-|    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
+|    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
 |  Left images   | [*Download*](https://drive.google.com/drive/folders/1x-66WX9ccTU3V76jYrgXypyuGKjFb49w?usp=sharing) | [*Download (Extraction Code: pcqv)*](https://pan.baidu.com/s/1ofByLHbQM27sCpyvisQC7A)|
 |  Right Images  | [*Download*](https://drive.google.com/drive/folders/1WtNkK8QUzPnD49OPGbUrK_VA4ly1yH91?usp=sharing) | [*Download (Extraction Code: 2t32 )*](https://pan.baidu.com/s/1NEDwo94UNjZxJqBkE8Bs0A) |
