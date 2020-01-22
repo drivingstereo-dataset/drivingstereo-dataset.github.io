@@ -9,6 +9,8 @@ layout: default
 
 ### News
 
+2020-01-22: &nbsp; 2,000 frames with 4 weathers, including sunny, rainy, foggy, and cloudy conditions, are avaiable on Goolge Drive and Baidu Cloud.
+
 2019-11-12: &nbsp; Testing dataset releases.
 
 2019-11-10: &nbsp; Training dataset releases.
@@ -35,6 +37,17 @@ As KITTI stereo dataset, both of the disparity maps and depth maps are saved as 
 |   Depth Maps   | [*Download*](https://drive.google.com/drive/folders/1kXOa9hgKfzyFeO7CxWiIia1OL7lqQEoI?usp=sharing)  | [*Download (Extraction Code: njpc)*](https://pan.baidu.com/s/1Zuzw3rhFEaP0pLE1Nb_K0w)  |
 
 The training dataset contains 38 sequences and 174431 frames. Each sequence is compress into an individual zip file which can be downloaded from above links. The attributes of each sequence are given in [our supplementary materials](http://openaccess.thecvf.com/content_CVPR_2019/supplemental/Yang_DrivingStereo_A_Large-Scale_CVPR_2019_supplemental.pdf).
+
+##### Different weathers
+
+|    Weather     | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
+|  :----------:  | :----------: | :---------: |
+|  Sunny   | [*Download*](https://drive.google.com/drive/folders/13-rqvS0clgdyc3ZF0yMR34PHAQuZjtOA?usp=sharing) | [*Download (Extraction Code: xh86)*](https://pan.baidu.com/s/1yaxKHwjKG-BrRUTSWi-jnw)|
+|  Cloudy  | [*Download*](https://drive.google.com/drive/folders/1CL6YzVfyuu2CFPNm_Bi35Flqo4gg2JnD?usp=sharing) | [*Download (Extraction Code: 7iqh )*](https://pan.baidu.com/s/1CAyDEzAgjl2OdtNjmKHxwg) |
+|  Foggy   | [*Download*](https://drive.google.com/drive/folders/10Q8754kZ1sVQ3eYA0iYc5Y1ojCpdkwcy?usp=sharing) | [*Download (Extraction Code: 5k5b )*](https://pan.baidu.com/s/1skbi9AVckA_8KVZ9YuHqRg) |
+|  Rainy   | [*Download*](https://drive.google.com/drive/folders/1j4wUl3D3ZOTDA3MaCsIq1hIKj2zqKCZe?usp=sharing) | [*Download (Extraction Code: 91mu )*](https://pan.baidu.com/s/1Fl7mndDCZlTSRDJYKS2ReA)  |
+
+For specific requirements ( image dehaze, image derain, or image restoration), 2000 frames with different weathers from sequences are selected. The weathers include sunny, cloudy, foggy, and rainy conditions. Each class of weather contains 500 frames. In addition to half-resolution data, we also release full-resolution data for these frames.
 
 #### Testing data
 
@@ -63,7 +76,7 @@ yangguorun91@gmail.com, songxiao@sensetime.com
 
 If you use our DrivingStereo dataset in your research, please cite this publication:
 ```
-@inproceeding{yang2019drivingstereo
+@inproceedings{yang2019drivingstereo
     title={DrivingStereo: A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios},
     author={Yang, Guorun and Song, Xiao and Huang, Chaoqin and Deng, Zhidong and Shi, Jianping and Zhou, Bolei},
     booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
