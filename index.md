@@ -11,7 +11,7 @@ layout: default
 
 2020-01-23: &nbsp; Calibration files release.
 
-2020-01-22: &nbsp; 2,000 selected frames with different weathers release.
+2020-01-22: &nbsp; 2000 selected frames with different weathers release.
 
 2019-11-12: &nbsp; Testing dataset releases.
 
@@ -25,9 +25,9 @@ layout: default
 
 ### Download
 
-**Google Drive** and **Baidu Cloud** links are available for the downloading of left images, right images, disparity maps, and depth maps. The total number of our dataset is 182188, where the training set has 174437 pairs and the testing set has 7751 pairs. For convenience, we compress the images by sequences. Different from the original resolution reported in the paper, all of the images and maps are downsampled to the half resolution. The average size of image is 881x400.
+**Google Drive** and **Baidu Cloud** links are available for the downloading of left images, right images, disparity maps, and depth maps. The total number of our dataset is 182188, where the training set has 174437 pairs and the testing set has 7751 pairs. For convenience, we compress the images by sequences. Different from the original resolution reported in the paper, all of the images and maps are downsampled to the half resolution. The average size of image is 881x400. In addition to the sequential training data, we also select 2000 frames with **4 different weathers (sunny, cloudy, foggy, rainy)** for specific requests.
 
-As KITTI stereo dataset, both of the disparity maps and depth maps are saved as **uint16 PNG images**. The disparity value and depth value for each pixel can be computed by converting the uint16 value to float and dividing it by 256. The zero values indicate the invalid pixels.
+As KITTI stereo dataset, both of the disparity maps and depth maps are saved as **uint16 PNG images**. The disparity value and depth value for each pixel can be computed by converting the uint16 value to float and dividing it by 256. The zero values indicate the invalid pixels. 
 
 #### Training data
 
@@ -47,9 +47,9 @@ The training dataset contains 38 sequences and 174431 frames. Each sequence is c
 |  Sunny   | [*Download*](https://drive.google.com/drive/folders/13-rqvS0clgdyc3ZF0yMR34PHAQuZjtOA?usp=sharing) | [*Download (Extraction Code: xh86)*](https://pan.baidu.com/s/1yaxKHwjKG-BrRUTSWi-jnw)|
 |  Cloudy  | [*Download*](https://drive.google.com/drive/folders/1CL6YzVfyuu2CFPNm_Bi35Flqo4gg2JnD?usp=sharing) | [*Download (Extraction Code: 7iqh )*](https://pan.baidu.com/s/1CAyDEzAgjl2OdtNjmKHxwg) |
 |  Foggy   | [*Download*](https://drive.google.com/drive/folders/10Q8754kZ1sVQ3eYA0iYc5Y1ojCpdkwcy?usp=sharing) | [*Download (Extraction Code: 5k5b )*](https://pan.baidu.com/s/1skbi9AVckA_8KVZ9YuHqRg) |
-|  Rainy   | [*Download*](https://drive.google.com/drive/folders/1j4wUl3D3ZOTDA3MaCsIq1hIKj2zqKCZe?usp=sharing) | [*Download (Extraction Code: 91mu )*](https://pan.baidu.com/s/1Fl7mndDCZlTSRDJYKS2ReA)  |
+|  Rainy   | [*Download*](https://drive.google.com/drive/folders/1j4wUl3D3ZOTDA3MaCsIq1hIKj2zqKCZe?usp=sharing) | [*Download (Extraction Code: 1rrd )*](https://pan.baidu.com/s/1R_oqcd8P8OE7St4KTCBc_A)  |
 
-For specific requirements ( image dehaze, image derain, or image restoration), 2000 frames with different weathers from sequences are selected. The weathers include sunny, cloudy, foggy, and rainy conditions. Each class of weather contains 500 frames. In addition to half-resolution data, we also release full-resolution data for these frames.
+For specific requirements (image dehaze, image derain, or image restoration), 2000 frames with different weathers (sunny, cloudy, foggy, and rainy) from sequences are selected, where each class of weather contains 500 frames. In addition to half-resolution data, we also release full-resolution data for these frames. Different from half-resulution disparity maps, the disparity value for each pixel in the full-resolution map is computed by converting the uint16 value to float and dividing it by 128.
 
 #### Testing data
 
@@ -60,7 +60,7 @@ For specific requirements ( image dehaze, image derain, or image restoration), 2
 
 The testing dataset contains 4 sequences and 7751 frames. So far we have released the stereo images but hidden the disparity and depth maps. If you are interested in the our testing set, you can contact us for the evaluation.
 
-#### Calib
+#### Calibration Parameters
 
 |    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
