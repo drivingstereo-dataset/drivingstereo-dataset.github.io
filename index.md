@@ -27,7 +27,7 @@ layout: default
 
 **Google Drive** and **Baidu Cloud** links are available for the downloading of left images, right images, disparity maps, and depth maps. The total number of our dataset is 182188, where the training set has 174437 pairs and the testing set has 7751 pairs. For convenience, we compress the images by sequences. Different from the original resolution reported in the paper, all of the images and maps are downsampled to the half resolution. The average size of image is 881x400. In addition to the sequential training data, we also select 2000 frames with **4 different weathers (sunny, cloudy, foggy, rainy)** for specific requests.
 
-As KITTI stereo dataset, both of the disparity maps and depth maps are saved as **uint16 PNG images**. The disparity value and depth value for each pixel can be computed by converting the uint16 value to float and dividing it by 256. The zero values indicate the invalid pixels. 
+As KITTI stereo dataset, both of the disparity maps and depth maps are saved as **uint16 PNG images**. The disparity value and depth value for each pixel can be computed by converting the uint16 value to float and dividing it by 256. The zero values indicate the invalid pixels.
 
 #### Training data
 
@@ -82,6 +82,10 @@ Guorun Yang, Xiao Song, Chaoqing Huang, Zhidong Deng, Jianping Shi, Bolei Zhou
 ### Contact
 
 yangguorun91@gmail.com, songxiao@sensetime.com
+
+### License
+
+This dataset is released under the [MIT license](https://github.com/drivingstereo-dataset/drivingstereo-dataset.github.io/blob/master/LICENSE).
 
 ### Citation
 
