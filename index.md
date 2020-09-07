@@ -60,7 +60,7 @@ For specific requirements (image dehaze, image derain, or image restoration), 20
 | Disparity Maps | [*Download*](https://drive.google.com/drive/folders/1uJjk8ih7O1PGkWvsJuD9raDbR-pH44PO?usp=sharing) | [*Download (Extraction Code: pxxx)*](https://pan.baidu.com/s/1iGOBXn-XBC_Z1xphKouNNw) |
 |   Depth Maps   | [*Download*](https://drive.google.com/drive/folders/1JZhfoeYLK7foRlArjjzyvG6JY3T60Vww?usp=sharing)  | [*Download (Extraction Code: wgb5)*](https://pan.baidu.com/s/1FyFMOsJwX20FHQ_nvgD9pQ)  |
 
-The testing dataset contains 4 sequences and 7751 frames. So far we have released the stereo images but hidden the disparity and depth maps. If you are interested in the our testing set, you can contact us for the evaluation.
+The testing dataset contains 4 sequences and 7751 frames, which can be used for evaluation.
 
 #### Calibration Parameters
 
