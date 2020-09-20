@@ -9,6 +9,8 @@ layout: default
 
 ### News
 
+2020-09-20: &nbsp; For the test dataset, the full-resolution data releases.
+
 2020-01-23: &nbsp; Calibration files release.
 
 2020-01-22: &nbsp; 2000 selected frames with different weathers release.
@@ -44,10 +46,10 @@ The training dataset contains 38 sequences and 174431 frames. Each sequence is c
 
 |    Weather     | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
-|  Sunny   | [*Download*](https://drive.google.com/drive/folders/13-rqvS0clgdyc3ZF0yMR34PHAQuZjtOA?usp=sharing) | [*Download (Extraction Code: xh86)*](https://pan.baidu.com/s/1yaxKHwjKG-BrRUTSWi-jnw)|
-|  Cloudy  | [*Download*](https://drive.google.com/drive/folders/1CL6YzVfyuu2CFPNm_Bi35Flqo4gg2JnD?usp=sharing) | [*Download (Extraction Code: 7iqh )*](https://pan.baidu.com/s/1CAyDEzAgjl2OdtNjmKHxwg) |
-|  Foggy   | [*Download*](https://drive.google.com/drive/folders/10Q8754kZ1sVQ3eYA0iYc5Y1ojCpdkwcy?usp=sharing) | [*Download (Extraction Code: 5k5b )*](https://pan.baidu.com/s/1skbi9AVckA_8KVZ9YuHqRg) |
-|  Rainy   | [*Download*](https://drive.google.com/drive/folders/1j4wUl3D3ZOTDA3MaCsIq1hIKj2zqKCZe?usp=sharing) | [*Download (Extraction Code: 1rrd )*](https://pan.baidu.com/s/1R_oqcd8P8OE7St4KTCBc_A)  |
+|  Sunny   | [*Download*](https://drive.google.com/drive/folders/1Fugpyu29fZABySlnF9g9s9BjiQ2MXu0O?usp=sharing) | [*Download (Extraction Code: xh86)*](https://pan.baidu.com/s/1yaxKHwjKG-BrRUTSWi-jnw)|
+|  Cloudy  | [*Download*](https://drive.google.com/drive/folders/10tvMmnQJ-8ESsG4FwxhgfUwke_s9CtTu?usp=sharing) | [*Download (Extraction Code: 7iqh )*](https://pan.baidu.com/s/1CAyDEzAgjl2OdtNjmKHxwg) |
+|  Foggy   | [*Download*](https://drive.google.com/drive/folders/1Fh4m1DuWtca65_QkWrhvpNSZcZGt1EBX?usp=sharing) | [*Download (Extraction Code: 5k5b )*](https://pan.baidu.com/s/1skbi9AVckA_8KVZ9YuHqRg) |
+|  Rainy   | [*Download*](https://drive.google.com/drive/folders/1Dmplo4Ct4XBT2zibKpJRXt6GPfWvUwmm?usp=sharing) | [*Download (Extraction Code: 1rrd )*](https://pan.baidu.com/s/1R_oqcd8P8OE7St4KTCBc_A)  |
 
 For specific requirements (image dehaze, image derain, or image restoration), 2000 frames with different weathers (sunny, cloudy, foggy, and rainy) from sequences are selected, where each class of weather contains 500 frames. In addition to half-resolution data, we also release full-resolution data for these frames. Different from half-resulution disparity maps, the disparity value for each pixel in the full-resolution map is computed by converting the uint16 value to float and dividing it by 128.
 
@@ -55,19 +57,19 @@ For specific requirements (image dehaze, image derain, or image restoration), 20
 
 |    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
-|  Left images   | [*Download*](https://drive.google.com/drive/folders/1x-66WX9ccTU3V76jYrgXypyuGKjFb49w?usp=sharing) | [*Download (Extraction Code: pcqv)*](https://pan.baidu.com/s/1ofByLHbQM27sCpyvisQC7A)|
-|  Right Images  | [*Download*](https://drive.google.com/drive/folders/1WtNkK8QUzPnD49OPGbUrK_VA4ly1yH91?usp=sharing) | [*Download (Extraction Code: 2t32 )*](https://pan.baidu.com/s/1NEDwo94UNjZxJqBkE8Bs0A) |
-| Disparity Maps | [*Download*](https://drive.google.com/drive/folders/1uJjk8ih7O1PGkWvsJuD9raDbR-pH44PO?usp=sharing) | [*Download (Extraction Code: pxxx)*](https://pan.baidu.com/s/1iGOBXn-XBC_Z1xphKouNNw) |
-|   Depth Maps   | [*Download*](https://drive.google.com/drive/folders/1JZhfoeYLK7foRlArjjzyvG6JY3T60Vww?usp=sharing)  | [*Download (Extraction Code: wgb5)*](https://pan.baidu.com/s/1FyFMOsJwX20FHQ_nvgD9pQ)  |
+|  Left images   | [*Download*](https://drive.google.com/drive/folders/1VjxCnOeEIGKF6GqDqrpWvDTM4keTWAC_?usp=sharing) | [*Download (Extraction Code: kf56 )*](https://pan.baidu.com/s/1NgYeZazipNJFvUH_qoIVRw) |
+|  Right Images  | [*Download*](https://drive.google.com/drive/folders/1Bjo__50Ugq-PgjZyumUKgxnRXB7RdqLu?usp=sharing) | [*Download (Extraction Code: b6r7 )*](https://pan.baidu.com/s/1Jgwjaqoj-faZfKsjbneSMQ) |
+| Disparity Maps | [*Download*](https://drive.google.com/drive/folders/1m6gJawtGrmrpO6DhC6jrrrDd6WMWOJCS?usp=sharing) | [*Download (Extraction Code: qerd )*](https://pan.baidu.com/s/1QTw-UtJCDRrm_sCAPM36Qw) |
+|   Depth Maps   | [*Download*](https://drive.google.com/drive/folders/1bKtlM-1JaG1YYR6yBDKFOH6r8yoUyDNm?usp=sharing)  | [*Download (Extraction Code: ax7f )*](https://pan.baidu.com/s/1bk9kEpS_NIIo2ic8X458Kg)  |
 
-The testing dataset contains 4 sequences and 7751 frames, which can be used for evaluation.
+The testing dataset contains 4 sequences and 7751 frames. In addition to the half-resolution data, the full-resolution data is also provided for evaluation.
 
 #### Calibration Parameters
 
 |    Data Type   | Google Drive | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Baidu Cloud |
 |  :----------:  | :----------: | :---------: |
-|     Train      | [*Download*](https://drive.google.com/drive/folders/19e-qWaOXS5L2pLtYv7T_cJX2c6a4lOaf?usp=sharing) | [*Download (Extraction Code: 6hkf)*](https://pan.baidu.com/s/1NyX7raWfviVbqthkOee4dg)|
-|      Test      | [*Download*](https://drive.google.com/drive/folders/18UHu1qPC-lo28-3TdQMJrSXOgxNo_inS?usp=sharing) | [*Download (Extraction Code: ikvf )*](https://pan.baidu.com/s/1XwV2mk2e_zbY5DiH9qfnoQ) |
+|     Train      | [*Download*](https://drive.google.com/drive/folders/19e-qWaOXS5L2pLtYv7T_cJX2c6a4lOaf?usp=sharing) | [*Download (Extraction Code: vfcf )*](https://pan.baidu.com/s/1e82taDNYy3j_zjT6_WSQWw) |
+|      Test      | [*Download*](https://drive.google.com/drive/folders/1cP6zOsHJUh7u3m4Sufq23ccoZmDIJrHp?usp=sharing) | [*Download (Extraction Code: 88fp )*](https://pan.baidu.com/s/1zzfW3ZE7eNsH6gaK0BA6Xw) |
 
 The format of calibration files is similar to KITTI. We provide the calibration paramters for both half-resolution and full-resolution images.
 
