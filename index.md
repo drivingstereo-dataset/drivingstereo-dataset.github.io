@@ -95,7 +95,7 @@ This dataset is released under the [MIT license](https://github.com/drivingstere
 
 If you use our DrivingStereo dataset in your research, please cite this publication:
 ```
-@inproceedings{yang2019drivingstereo
+@inproceedings{yang2019drivingstereo,
     title={DrivingStereo: A Large-Scale Dataset for Stereo Matching in Autonomous Driving Scenarios},
     author={Yang, Guorun and Song, Xiao and Huang, Chaoqin and Deng, Zhidong and Shi, Jianping and Zhou, Bolei},
     booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
